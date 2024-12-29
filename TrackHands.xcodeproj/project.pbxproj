@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E88D2882CE1CFC7007BEA86 /* TrackHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E88D2872CE1CFC7007BEA86 /* TrackHands.swift */; };
+		9E88D28C2CE1CFC8007BEA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E88D28B2CE1CFC8007BEA86 /* Assets.xcassets */; };
+		9E88D2B32CE1CFFB007BEA86 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E88D2B22CE1CFFB007BEA86 /* CameraManager.swift */; };
+		9EA5F2942D0E8E910049D13F /* CameraDetectionOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5F28B2D0E8E910049D13F /* CameraDetectionOverlay.swift */; };
+		9EA5F2952D0E8E910049D13F /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5F28C2D0E8E910049D13F /* CameraPreview.swift */; };
+		9EA5F2962D0E8E910049D13F /* SettingsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5F28E2D0E8E910049D13F /* SettingsWindow.swift */; };
+		9EA5F2972D0E8E910049D13F /* WarningOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5F2902D0E8E910049D13F /* WarningOverlay.swift */; };
+		9EA5F2982D0E8E910049D13F /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5F2922D0E8E910049D13F /* PopoverView.swift */; };
+		9EB71B882CE1E0BD00FD493E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB71B872CE1E0BC00FD493E /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E88D2962CE1CFC8007BEA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E88D27C2CE1CFC7007BEA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E88D2832CE1CFC7007BEA86;
+			remoteInfo = StopBiting;
+		};
+		9E88D2A02CE1CFC8007BEA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E88D27C2CE1CFC7007BEA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E88D2832CE1CFC7007BEA86;
+			remoteInfo = StopBiting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E88D2842CE1CFC7007BEA86 /* TrackHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E88D2872CE1CFC7007BEA86 /* TrackHands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackHands.swift; sourceTree = "<group>"; };
+		9E88D28B2CE1CFC8007BEA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E88D2902CE1CFC8007BEA86 /* TrackHands.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackHands.entitlements; sourceTree = "<group>"; };
+		9E88D2952CE1CFC8007BEA86 /* TrackHandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackHandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E88D29F2CE1CFC8007BEA86 /* TrackHandsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackHandsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E88D2B22CE1CFFB007BEA86 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		9E88D2BA2CE1D1DB007BEA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9EA5F28B2D0E8E910049D13F /* CameraDetectionOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraDetectionOverlay.swift; sourceTree = "<group>"; };
+		9EA5F28C2D0E8E910049D13F /* CameraPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		9EA5F28E2D0E8E910049D13F /* SettingsWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsWindow.swift; sourceTree = "<group>"; };
+		9EA5F2902D0E8E910049D13F /* WarningOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarningOverlay.swift; sourceTree = "<group>"; };
+		9EA5F2922D0E8E910049D13F /* PopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		9EB71B872CE1E0BC00FD493E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E88D2812CE1CFC7007BEA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E88D2922CE1CFC8007BEA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E88D29C2CE1CFC8007BEA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E2828F52CEB2B4400311CFA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9E88D2872CE1CFC7007BEA86 /* TrackHands.swift */,
+				9EB71B872CE1E0BC00FD493E /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9E2828F62CEB2B7B00311CFA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9E2828F72CEB2B8F00311CFA /* Camera */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9E2828F72CEB2B8F00311CFA /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9E88D2B22CE1CFFB007BEA86 /* CameraManager.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		9E88D27B2CE1CFC7007BEA86 = {
+			isa = PBXGroup;
+			children = (
+				9E88D2862CE1CFC7007BEA86 /* TrackHands */,
+				9E88D2852CE1CFC7007BEA86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E88D2852CE1CFC7007BEA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E88D2842CE1CFC7007BEA86 /* TrackHands.app */,
+				9E88D2952CE1CFC8007BEA86 /* TrackHandsTests.xctest */,
+				9E88D29F2CE1CFC8007BEA86 /* TrackHandsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E88D2862CE1CFC7007BEA86 /* TrackHands */ = {
+			isa = PBXGroup;
+			children = (
+				9EA5F2932D0E8E910049D13F /* Views */,
+				9E2828F62CEB2B7B00311CFA /* Modules */,
+				9E2828F52CEB2B4400311CFA /* App */,
+				9E88D2BA2CE1D1DB007BEA86 /* Info.plist */,
+				9E88D28B2CE1CFC8007BEA86 /* Assets.xcassets */,
+				9E88D2902CE1CFC8007BEA86 /* TrackHands.entitlements */,
+			);
+			path = TrackHands;
+			sourceTree = "<group>";
+		};
+		9EA5F28D2D0E8E910049D13F /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9EA5F28B2D0E8E910049D13F /* CameraDetectionOverlay.swift */,
+				9EA5F28C2D0E8E910049D13F /* CameraPreview.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		9EA5F28F2D0E8E910049D13F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9EA5F28E2D0E8E910049D13F /* SettingsWindow.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9EA5F2912D0E8E910049D13F /* Warning */ = {
+			isa = PBXGroup;
+			children = (
+				9EA5F2902D0E8E910049D13F /* WarningOverlay.swift */,
+			);
+			path = Warning;
+			sourceTree = "<group>";
+		};
+		9EA5F2932D0E8E910049D13F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9EA5F28D2D0E8E910049D13F /* Camera */,
+				9EA5F28F2D0E8E910049D13F /* Settings */,
+				9EA5F2912D0E8E910049D13F /* Warning */,
+				9EA5F2922D0E8E910049D13F /* PopoverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E88D2832CE1CFC7007BEA86 /* TrackHands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E88D2A92CE1CFC8007BEA86 /* Build configuration list for PBXNativeTarget "TrackHands" */;
+			buildPhases = (
+				9E88D2802CE1CFC7007BEA86 /* Sources */,
+				9E88D2812CE1CFC7007BEA86 /* Frameworks */,
+				9E88D2822CE1CFC7007BEA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackHands;
+			productName = StopBiting;
+			productReference = 9E88D2842CE1CFC7007BEA86 /* TrackHands.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E88D2942CE1CFC8007BEA86 /* TrackHandsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E88D2AC2CE1CFC8007BEA86 /* Build configuration list for PBXNativeTarget "TrackHandsTests" */;
+			buildPhases = (
+				9E88D2912CE1CFC8007BEA86 /* Sources */,
+				9E88D2922CE1CFC8007BEA86 /* Frameworks */,
+				9E88D2932CE1CFC8007BEA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E88D2972CE1CFC8007BEA86 /* PBXTargetDependency */,
+			);
+			name = TrackHandsTests;
+			productName = StopBitingTests;
+			productReference = 9E88D2952CE1CFC8007BEA86 /* TrackHandsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E88D29E2CE1CFC8007BEA86 /* TrackHandsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E88D2AF2CE1CFC8007BEA86 /* Build configuration list for PBXNativeTarget "TrackHandsUITests" */;
+			buildPhases = (
+				9E88D29B2CE1CFC8007BEA86 /* Sources */,
+				9E88D29C2CE1CFC8007BEA86 /* Frameworks */,
+				9E88D29D2CE1CFC8007BEA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E88D2A12CE1CFC8007BEA86 /* PBXTargetDependency */,
+			);
+			name = TrackHandsUITests;
+			productName = StopBitingUITests;
+			productReference = 9E88D29F2CE1CFC8007BEA86 /* TrackHandsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E88D27C2CE1CFC7007BEA86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9E88D2832CE1CFC7007BEA86 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9E88D2942CE1CFC8007BEA86 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9E88D2832CE1CFC7007BEA86;
+					};
+					9E88D29E2CE1CFC8007BEA86 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9E88D2832CE1CFC7007BEA86;
+					};
+				};
+			};
+			buildConfigurationList = 9E88D27F2CE1CFC7007BEA86 /* Build configuration list for PBXProject "TrackHands" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E88D27B2CE1CFC7007BEA86;
+			productRefGroup = 9E88D2852CE1CFC7007BEA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E88D2832CE1CFC7007BEA86 /* TrackHands */,
+				9E88D2942CE1CFC8007BEA86 /* TrackHandsTests */,
+				9E88D29E2CE1CFC8007BEA86 /* TrackHandsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E88D2822CE1CFC7007BEA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E88D28C2CE1CFC8007BEA86 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E88D2932CE1CFC8007BEA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E88D29D2CE1CFC8007BEA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E88D2802CE1CFC7007BEA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA5F2942D0E8E910049D13F /* CameraDetectionOverlay.swift in Sources */,
+				9EB71B882CE1E0BD00FD493E /* AppDelegate.swift in Sources */,
+				9EA5F2952D0E8E910049D13F /* CameraPreview.swift in Sources */,
+				9EA5F2972D0E8E910049D13F /* WarningOverlay.swift in Sources */,
+				9EA5F2982D0E8E910049D13F /* PopoverView.swift in Sources */,
+				9E88D2B32CE1CFFB007BEA86 /* CameraManager.swift in Sources */,
+				9EA5F2962D0E8E910049D13F /* SettingsWindow.swift in Sources */,
+				9E88D2882CE1CFC7007BEA86 /* TrackHands.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E88D2912CE1CFC8007BEA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E88D29B2CE1CFC8007BEA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E88D2972CE1CFC8007BEA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E88D2832CE1CFC7007BEA86 /* TrackHands */;
+			targetProxy = 9E88D2962CE1CFC8007BEA86 /* PBXContainerItemProxy */;
+		};
+		9E88D2A12CE1CFC8007BEA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E88D2832CE1CFC7007BEA86 /* TrackHands */;
+			targetProxy = 9E88D2A02CE1CFC8007BEA86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9E88D2A72CE1CFC8007BEA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E88D2A82CE1CFC8007BEA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9E88D2AA2CE1CFC8007BEA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = TrackHands/TrackHands.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = UF86F357KR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackHands/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TrackHands;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To detect if hands are closer to the mouth (i.e. biting)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = caco.TrackHands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9E88D2AB2CE1CFC8007BEA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = TrackHands/TrackHands.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = UF86F357KR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackHands/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TrackHands;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To detect if hands are closer to the mouth (i.e. biting)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = caco.TrackHands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9E88D2AD2CE1CFC8007BEA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF86F357KR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caco.StopBitingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackHands.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackHands";
+			};
+			name = Debug;
+		};
+		9E88D2AE2CE1CFC8007BEA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF86F357KR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caco.StopBitingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackHands.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackHands";
+			};
+			name = Release;
+		};
+		9E88D2B02CE1CFC8007BEA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF86F357KR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caco.StopBitingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = StopBiting;
+			};
+			name = Debug;
+		};
+		9E88D2B12CE1CFC8007BEA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF86F357KR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caco.StopBitingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = StopBiting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E88D27F2CE1CFC7007BEA86 /* Build configuration list for PBXProject "TrackHands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88D2A72CE1CFC8007BEA86 /* Debug */,
+				9E88D2A82CE1CFC8007BEA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E88D2A92CE1CFC8007BEA86 /* Build configuration list for PBXNativeTarget "TrackHands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88D2AA2CE1CFC8007BEA86 /* Debug */,
+				9E88D2AB2CE1CFC8007BEA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E88D2AC2CE1CFC8007BEA86 /* Build configuration list for PBXNativeTarget "TrackHandsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88D2AD2CE1CFC8007BEA86 /* Debug */,
+				9E88D2AE2CE1CFC8007BEA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E88D2AF2CE1CFC8007BEA86 /* Build configuration list for PBXNativeTarget "TrackHandsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88D2B02CE1CFC8007BEA86 /* Debug */,
+				9E88D2B12CE1CFC8007BEA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E88D27C2CE1CFC7007BEA86 /* Project object */;
+}
